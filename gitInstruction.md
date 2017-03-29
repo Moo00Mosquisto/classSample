@@ -6,7 +6,7 @@
 4. git remote add origin URL
 5. git push origin master
 
-##get update from pull repository
+## get update from pull repository
 
 git pull origin master
 
