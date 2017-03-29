@@ -39,42 +39,27 @@ public:
 
 template<class ItemType>
 int ArrayBag<ItemType>::getIndexOf(const ItemType &target) const {
-    for (int i = 0; i < itemCount; i++) {
-        if (items[i] == target) {
-            return i;
-        }
-    }
-    return -1;
+
 }
 
 template<class ItemType>
 ArrayBag<ItemType>::ArrayBag() {
-    itemCount = 0;
-    maxItems = DEFAULT_CAPACITY;
 
 }
 
 template<class ItemType>
 int ArrayBag<ItemType>::getCurrentSize() const {
-    return itemCount;
+
 }
 
 template<class ItemType>
 bool ArrayBag<ItemType>::isEmpty() const {
-    if (itemCount == 0)
-        return true;
-    else
-        return false;
+
 }
 
 template<class ItemType>
 bool ArrayBag<ItemType>::add(const ItemType &newEntry) {
-    if (itemCount < maxItems) {
-        items[itemCount++] = newEntry;
-        return true;
-    } else {
-        return false;
-    }
+
 }
 
 template<class ItemType>
@@ -89,37 +74,22 @@ bool ArrayBag<ItemType>::remove(const ItemType &anEntry) {
 
 template<class ItemType>
 void ArrayBag<ItemType>::clear() {
-    itemCount = 0;
+
 }
 
 template<class ItemType>
 bool ArrayBag<ItemType>::contains(const ItemType &anEntry) const {
-    for (int i = 0; i < itemCount; i++) {
-        if (items[i] == anEntry) {
-            return true;
-        }
-    }
-    return false;
+
 }
 
 template<class ItemType>
 int ArrayBag<ItemType>::getFrequencyOf(const ItemType &anEntry) const {
-    int count = 0;
-    for (int i = 0; i < itemCount; i++) {
-        if (items[i] == anEntry) {
-            count++;
-        }
-    }
-    return count;
+
 }
 
 template<class ItemType>
 vector<ItemType> ArrayBag<ItemType>::toVector() const {
-    vector<ItemType> v;
-    for (int i = 0; i < itemCount; i++) {
-        v.push_back(items[i]);
-    }
-    return v;
+
 }
 
 # endif

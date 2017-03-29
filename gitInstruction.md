@@ -10,4 +10,7 @@
 
 git pull origin master
 
+## switch to another branch
+
+git checkout -b anotherBranch (branch -->checkout)
 

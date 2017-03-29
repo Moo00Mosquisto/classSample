@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="samples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="samples">
+				<Option output="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/samples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 samples"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="samples/fast">
+				<Option output="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/samples" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.9"/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 samples/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/elizahua2017spring/Documents/csc340/samples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch01/01_adtBag/BagInterface.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch01/01_adtBag/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch02/01_simpleFactorialRecursion/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch02/02_writeBackwardsRecursion/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch03/01_arrayBag/BagInterface.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch03/01_arrayBag/arrayBag.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch03/01_arrayBag/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/ArrayBag.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/BagInterface.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/LinkedBag.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/node.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch06/01_stackADTInterface/stackInterface.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch06/02_balancedBraces/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch06/03_infixToPostfix/infixToPostfix.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch06/03_infixToPostfix/infixToPostfix.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ch06/03_infixToPostfix/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/01_simplePlainBox/PlainBox.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/01_simplePlainBox/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/01_simplePlainBox/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/02_templatePlainBox/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/02_templatePlainBox/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/03_inheritanceToyBox/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/03_inheritanceToyBox/ToyBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/03_inheritanceToyBox/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/04_magicBox/MagicBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/04_magicBox/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/04_magicBox/ToyBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/04_magicBox/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/05_adtBox/BoxInterface.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/05_adtBox/MagicBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/05_adtBox/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/05_adtBox/ToyBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci01/05_adtBox/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/01_pointers/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/02_pointers_sol/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/GoodMemory.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/GoodMemory.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_2/MagicBox.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_2/MagicBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_2/PlainBox.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_2/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_2/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_4_VirtualMethods/MagicBox.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_4_VirtualMethods/MagicBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_4_VirtualMethods/PlainBox.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_4_VirtualMethods/PlainBox.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_4_VirtualMethods/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_5_1_Resizable/ArrayBag.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_5_1_Resizable/ArrayBag.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_5_1_Resizable/BagInterface.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/SectionC2_5_1_Resizable/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/addResizableAdd.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/myLeakyFunction.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci02/ci02fromTheBook/pluggedLeakyFunction.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci03/01_basicException/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/ci03/02_ExcptionClass/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/01_factorialInCpp/factorialInCLion/factorial.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/01_factorialInCpp/factorialInCLion/factorial.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/01_factorialInCpp/factorialInCLion/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/01_factorialInCpp/factorialInCppGpp/factorial.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/01_factorialInCpp/factorialInCppGpp/factorial.h">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/01_factorialInCpp/factorialInCppGpp/factorialInCppGppMain.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/02_sizeOfCpp/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/other/03_vectorInCpp/main.cpp">
+			<Option target="samples"/>
+		</Unit>
+		<Unit filename="/home/elizahua2017spring/Documents/csc340/samples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
