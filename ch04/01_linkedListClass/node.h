@@ -18,10 +18,12 @@ public :
 
     Node(const ItemType &anItem, Node<ItemType> *nextNodePtr);
 
+    //mutator can only access the element
     void setItem(const ItemType &anItem);
 
     void setNext(Node<ItemType> *nextNodePtr);
 
+    //accessor should be const function, since the client cannot modify the data
     ItemType getItem() const;
 
     Node<ItemType> *getNext() const;

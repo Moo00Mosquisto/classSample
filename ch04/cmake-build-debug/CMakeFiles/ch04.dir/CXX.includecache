@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/ArrayBag.h
+BagInterface.h
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/BagInterface.h
+
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/BagInterface.h
+vector
+-
+
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/LinkedBag.h
+BagInterface.h
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/BagInterface.h
+node.h
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/node.h
+
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/main.cpp
+BagInterface.h
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/BagInterface.h
+ArrayBag.h
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/ArrayBag.h
+LinkedBag.h
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/LinkedBag.h
+iostream
+-
+string
+-
+cctype
+-
+vector
+-
+
+/home/elizahua2017spring/Documents/csc340/samples/ch04/01_linkedListClass/node.h
+cstddef
+-
+

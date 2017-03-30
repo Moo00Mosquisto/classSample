@@ -5,9 +5,9 @@
   Input Postfix expression must be in a desired format.
   Operands and operator, both must be single character.
   Only '+'  ,  '-'  , '*', '/' and '$' (for exponentiation)  operators are expected.
-*/
-#pragma once
 
+#pragma once
+*/
 #include<stack>
 #include<string>
 #include "infixToPostfix.h"

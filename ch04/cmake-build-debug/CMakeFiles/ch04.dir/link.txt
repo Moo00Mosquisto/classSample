@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ch04.dir/01_linkedListClass/main.cpp.o  -o ch04 

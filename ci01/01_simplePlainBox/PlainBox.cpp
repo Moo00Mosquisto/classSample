@@ -17,7 +17,7 @@ PlainBox::setItem (const ItemType & theItem)
 }   // end setItem
 
 ItemType
-PlainBox::getItem () const const
+PlainBox::getItem () const
 {
     return item;
 }   // end getItem

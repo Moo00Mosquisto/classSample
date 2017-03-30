@@ -4,11 +4,15 @@
 #define _LINKED_BAG
 
 #include "BagInterface.h"
-#include "Node.h"
+#include "node.h"
 
 
 template<class ItemType>
 class LinkedBag : public BagInterface<ItemType> {
+    /*
+     * this is just an virtual link list
+     * the actual link list is in the memory
+     */
 private:
     Node<ItemType> *headPtr;    // Pointer to first node
     int itemCount;        // Current count of bag items
@@ -44,41 +48,29 @@ LinkedBag<ItemType>::LinkedBag() : headPtr(nullptr), itemCount(0) {
 
 template<class ItemType>
 LinkedBag<ItemType>::LinkedBag(const LinkedBag<ItemType> &aBag) {
-    itemCount = aBag.itemCount;
-    Node<ItemType> *origChainPtr = aBag.headPtr;  // Points to nodes in original chain
+    //set up all the data: itemCount, headPtr
+    itemCount=aBag.itemCount;
+    Node<ItemType> listToCopyPtr = aBag.headPtr;
 
-    if (origChainPtr == nullptr)
-        headPtr = nullptr;  // Original bag is empty
-    else {
-        // Copy first node
-        headPtr = new Node<ItemType>();
-        headPtr->setItem(origChainPtr->getItem());
+    //case: bag is empty
+    if(!listToCopyPtr) headPtr=nullptr;
+    else{ //bag is not empty
+        //copy first node
+        headPtr=new Node<ItemType>();
+        headPtr->setItem(listToCopyPtr->getItem());
+        listToCopyPtr=listToCopyPtr.getNext();
 
-        // Copy remaining nodes
-        Node<ItemType> *newChainPtr = headPtr;      // Points to last node in new chain
-        origChainPtr = origChainPtr->getNext();     // Advance original-chain pointer
+        //remaining nodes
+        Node<ItemType> *current = headPtr;
 
-        while (origChainPtr != nullptr)    // origChainPtr is used as our counting pointer to traverse
-            // the old chain
-        {
-            // Get next item from original chain
-            ItemType nextItem = origChainPtr->getItem();
+        while(!listToCopyPtr){
+            Node<ItemType> *newNode = new Node<ItemType>(listToCopyPtr.getItem());
+            current->setNext(newNode);
+            current=current->getNext();
+            listToCopyPtr=listToCopyPtr.getNext();
+        }
 
-            // Create a new node containing the next item
-            Node<ItemType> *newNodePtr = new Node<ItemType>(nextItem);
-
-            // Link new node to end of new chain
-            newChainPtr->setNext(newNodePtr);
-
-            // Advance pointer to new last node
-            newChainPtr = newChainPtr->getNext();
-
-            // Advance original-chain pointer
-            origChainPtr = origChainPtr->getNext();
-        }  // end while
-
-        newChainPtr->setNext(nullptr);              // Flag end of chain
-    }  // end if
+    }
 }  // end copy constructor
 
 
@@ -152,7 +144,7 @@ bool LinkedBag<ItemType>::remove(const ItemType &anEntry) {
 template<class ItemType>
 void LinkedBag<ItemType>::clear() {
     Node<ItemType> *nodeToDeletePtr = headPtr;
-    while (headPtr != nullptr) {
+    while (!headPtr) { //head exist
         headPtr = headPtr->getNext();
 
         // Return node to the system
